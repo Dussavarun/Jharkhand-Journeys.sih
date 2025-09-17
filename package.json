@@ -9,6 +9,10 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@langchain/community": "^0.3.56",
+    "@langchain/core": "^0.3.76",
+    "@langchain/google-genai": "^0.2.18",
+    "@langchain/langgraph": "^0.4.9",
     "@react-google-maps/api": "^2.20.7",
     "axios": "^1.12.1",
     "bcryptjs": "^3.0.2",
@@ -19,7 +23,8 @@
     "next": "15.5.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "react-leaflet": "^5.0.0"
+    "react-leaflet": "^5.0.0",
+    "tavily": "^1.0.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
